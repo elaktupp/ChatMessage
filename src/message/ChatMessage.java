@@ -5,15 +5,13 @@
  */
 package message;
 
-import java.io.Serializable;
-
 /**
  * This class can be used as serializable object between the client
  * and server in chat program.
  * 
  * @author Kimmo T.
  */
-public class ChatMessage implements Serializable {
+public class ChatMessage extends Chat {
     
     private String userName; // sendder of the message
     private String chatMessage;
