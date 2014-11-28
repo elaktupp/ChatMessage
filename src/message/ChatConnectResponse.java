@@ -5,6 +5,8 @@
  */
 package message;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Ohjelmistokehitys
