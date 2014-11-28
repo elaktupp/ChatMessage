@@ -13,20 +13,11 @@ package message;
  */
 public class ChatMessage extends Chat {
     
-    private String userName; // sendder of the message
     private String chatMessage;
     private String messageColor;
     private int fontSize; // range 12 to 25
     private boolean isPrivate;
     private String privateName; // receiver of the private message
-
-    public String getUserName() {
-        return userName;
-    }
-
-    public void setUserName(String userName) {
-        this.userName = userName;
-    }
 
     public String getChatMessage() {
         return chatMessage;

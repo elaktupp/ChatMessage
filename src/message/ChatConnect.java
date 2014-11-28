@@ -5,21 +5,12 @@
  */
 package message;
 
-import java.io.Serializable;
-
 /**
  *
  * @author Ohjelmistokehitys
  */
-public abstract class Chat implements Serializable {
+public class ChatConnect extends Chat {
     
-    private String userName;
     
-    public void setUserName(String userName) {
-        this.userName = userName;
-    }
     
-    public String getUserName() {
-        return userName;
-    }
 }

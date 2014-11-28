@@ -12,11 +12,11 @@ import java.util.ArrayList;
  *
  * @author Ohjelmistokehitys
  */
-public class ChatUserList extends Chat {
+public class ChatUserListUpdate extends Chat {
     
     private ArrayList<String> users;
     
-    public ChatUserList(ArrayList<String> users) {
+    public ChatUserListUpdate(ArrayList<String> users) {
         this.users = users;
     }
     
