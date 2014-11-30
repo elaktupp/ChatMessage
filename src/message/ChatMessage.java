@@ -15,6 +15,7 @@ public class ChatMessage extends Chat {
     
     private String chatMessage;
     private String messageColor;
+    private String fontFamily;
     private int fontSize; // range 12 to 25
     private boolean isPrivate;
     private String privateName; // receiver of the private message
@@ -33,6 +34,14 @@ public class ChatMessage extends Chat {
 
     public void setMessageColor(String messageColor) {
         this.messageColor = messageColor;
+    }
+
+    public String getFontFamily() {
+        return fontFamily;
+    }
+
+    public void setFontFamily(String fontFamily) {
+        this.fontFamily = fontFamily;
     }
 
     public int getFontSize() {
