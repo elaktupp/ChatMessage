@@ -13,12 +13,12 @@ package message;
  */
 public class ChatMessage extends Chat {
     
-    private String chatMessage;
-    private String messageColor;
-    private String fontFamily;
-    private int fontSize; // range 12 to 25
-    private boolean isPrivate;
-    private String privateName; // receiver of the private message
+    private String chatMessage = null;
+    private String messageColor = null;
+    private String fontFamily = null;
+    private int fontSize = 12; // range 12 to 25
+    private boolean isPrivate = false;
+    private String privateName = null; // receiver of the private message
 
     public String getChatMessage() {
         return chatMessage;
